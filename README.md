@@ -1,9 +1,15 @@
 # Instabug-Task2-Solution - Aya Mohamed AbuElSoud
-<h3 style="text-align: center">Login Page</h3>
+
+<h3 align="center">Login Page</h3>
+
 ![Demo Image](https://i.imgur.com/nY9r7Fc.png)
-<h3 style="text-align: center">Welcome Page</h3>
+
+<h3 align="center">Welcome Page</h3>
+
 ![Welcome Image](https://i.imgur.com/6i8hhfa.png)
-<h3 style="text-align: center">404 Page</h3>
+
+<h3 align="center">404 Page</h3>
+
 ![Not Found Image](https://i.imgur.com/mIzDQZe.png)
 
 ## Learning Resources

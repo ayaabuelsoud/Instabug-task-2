@@ -68,6 +68,24 @@ contain the email address name (the part that came before the @)" when these con
         -  abcdefghijkl (doesn’t contains email name “aya” nor uppercase ltters nor numbers)
     - It'll show this warning message ![warning](https://i.imgur.com/Pax8AE1.png)
     - My point is that I've worked on the vlidation logic, we can use it any where so if it's meant to be used in another place or in another way, Please let me know.
+### Working Accounts
+```
+    [
+      { email: "mohamed@instabug.com", password: "12345678" },
+      { email: "mohamed1@instabug.com", password: "12345678" },
+      { email: "mohamed2@instabug.com", password: "12345678" },
+      { email: "mohamed3@instabug.com", password: "12345678" },
+      { email: "mohamed4@instabug.com", password: "12345678" },
+      { email: "mohamed5@instabug.com", password: "12345678" },
+      { email: "mohamed6@instabug.com", password: "12345678" },
+      { email: "mohamed7@instabug.com", password: "12345678" },
+    ]
+```
+
+### What can be improved from my point of view
+- We can have a better slider but using external libraries.
+- We can build an SVG for the illustration image in 404 page but it'll take more time to implement.
+
 ## Project setup
 ```
 npm install

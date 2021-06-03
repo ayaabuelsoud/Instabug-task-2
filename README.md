@@ -1,5 +1,5 @@
 # Instabug-Task2-Solution - Aya Mohamed AbuElSoud
-## Visit demo: (https://boring-einstein-6dd6f4.netlify.app/login)
+## Visit demo: https://boring-einstein-6dd6f4.netlify.app/
 
 <h3 align="center">Login Page</h3>
 

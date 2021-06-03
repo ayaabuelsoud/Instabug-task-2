@@ -246,11 +246,15 @@ Home Section
           height: 15px;
           border-radius: 5px;
           border: 1px solid #d4d4e3;
-          padding: 10px;
+          padding: 10px 0px 10px;
           font-size: 16px;
           color: #333;
           transition: all 0.3s ease;
           transition: all 0.3s ease;
+        }
+        
+        input::placeholder {
+          padding-left: 20px;
         }
 
         .field:focus {

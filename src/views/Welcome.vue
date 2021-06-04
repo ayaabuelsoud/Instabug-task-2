@@ -20,6 +20,7 @@ import store from "@/store";
 import router from "@/router";
 
 export default {
+  name: "Welcome",
   data() {
     return {
       user: store.state.user,

@@ -37,6 +37,10 @@ Home Section
   overflow: hidden;
   position: relative;
 
+  .slider-container{
+    display: contents;
+  }
+
   .slider {
     flex: 0 0 50%;
     max-width: 50%;
@@ -131,7 +135,7 @@ Home Section
         }
       }
 
-      .logoinButtons {
+      .loginButtons {
         .logo-btn {
           display: flex;
           align-items: center;

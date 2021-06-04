@@ -13,6 +13,11 @@
 
 ![Not Found Image](https://i.imgur.com/mIzDQZe.png)
 
+## Available Routes
+- `/login` -> Login page (Requires the user to be unauthenticated -Guest- otherwise it'll redirect to `/welcome`)
+- `/welcome` (Default) -> Welcome Page (Requires Authentication otherwise it'll redirect to `/login`)
+- `/404` -> Not Found page (all other routes than `/login`,`/welcome` will redirect to `/404`) 
+
 ## Learning Resources
 ##### Vue.js
 - https://vuejs.org/
@@ -36,6 +41,7 @@
 - https://stackoverflow.com/questions/799981/document-ready-equivalent-without-jquery
 - https://stackoverflow.com/questions/4919680/html5-placeholder-css-padding
 - https://stackoverflow.com/questions/1055767/why-can-i-not-define-functions-in-jquerys-document-ready
+- https://stackoverflow.com/questions/37645243/static-image-src-in-vue-js-template
 
 ## Timeline
 ##### 1 / 6 / 2021
@@ -52,6 +58,9 @@
 - Worked on writing automated tests and fixing bugs.
 - Learned more about the deployment and choosed Netlify for its simplicity.
 - Worked on the deployment
+
+#### 4 / 6 / 2021
+- Reviewed the application and applied all possible improvments and fixed small typos and issues.
 
 ## Notes
 - About "The password must be more than 8 characters otherwise shows (password must be six characters or more)" requirement.
@@ -85,6 +94,12 @@ contain the email address name (the part that came before the @)" when these con
 ### What can be improved from my point of view
 - We can have a better slider but using external libraries.
 - We can build an SVG for the illustration image in 404 page but it'll take more time to implement.
+
+### E2E tests scenarios
+- I wrote automated tests for the 4 scenarios mentioned in the task description.
+- I also wrote extra automated tests to check other scenarios like : logging out, wrong password formats, redirections.
+- Tests can be found in `tests\e2e\specs` and we can run the tests using the command `npm run test:e2e`.
+    
 
 ## Project setup
 ```
